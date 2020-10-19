@@ -4,9 +4,13 @@
 ### Development Environment: Python3.6.5 (with matplotlib,pandas,wxPython,datetime,hashlib,pickle,webbrowser,pycryptodome)
 ### Login Password: 1234
 
-![image](figure1.png)
-![image](figure2.png)
-![image](figure3.png)
-![image](figure4.png)
-![image](figure5.png)
-![image](figure6.png)
+![image](README Images/figure1.png)
+![image](README Images/figure2.png)
+![image](README Images/figure3.png)
+![image](README Images/figure4.png)
+![image](README Images/figure5.png)
+![image](README Images/figure6.png)
+
+## How to create .exe
+1.Edit setup.py to suit your environment.
+2.Run setup.py.
