@@ -564,7 +564,7 @@ class Help(wx.Frame):
         self.statictext_help_para2 = wx.StaticText(self.panel_help_scroll,-1,"あらかじめ設定した理想量を100%として、現在ある在庫の割合を表示している。左のチェックボックスにチェックを入れることで、確認したい物資を表示させることができる。また、理想量の変更や物資の追加および削除はメニューバーから行うことができる。",size=(400,60))
         self.tmp3 = wx.StaticText(self.panel_help_scroll,-1,size=(10,10))
         self.statictext_help_para3 = wx.StaticText(self.panel_help_scroll,-1,"＜本日の発注＞")
-        self.statictext_help_para4 = wx.StaticText(self.panel_help_scroll,-1,"本日発注しなければならない物資を表示している。これは客数をもとに算出している。前回の発注から、あらかじめ設定された客数の来客があった場合、発注を促すようにしている。",size=(400,50))
+        self.statictext_help_para4 = wx.StaticText(self.panel_help_scroll,-1,"本日発注しなければならない物資を表示している。こ",size=(400,50))
         self.tmp4 = wx.StaticText(self.panel_help_scroll,-1,size=(10,10))
         self.statictext_help_para5 = wx.StaticText(self.panel_help_scroll,-1,"＜過去のデータ＞")
         self.statictext_help_para6 = wx.StaticText(self.panel_help_scroll,-1,"過去に発注した日付と物資名、物資の数を表示している。",size=(400,40))
@@ -604,7 +604,7 @@ class Info(wx.Frame):
 
 
         # フレーム
-        self.SetSize((400,220))
+        self.SetSize((400,280))
         self.SetBackgroundColour((32, 32, 32))
         self.Center()
 
@@ -627,7 +627,7 @@ class Info(wx.Frame):
         self.statictext_info_enviroment.SetForegroundColour((99, 99, 99))
         self.statictext_info_language = wx.StaticText(self.panel_info,-1,"Python3.6.5",style=wx.TE_CENTER)
         self.statictext_info_language.SetForegroundColour((99, 99, 99))
-        self.statictext_info_library = wx.StaticText(self.panel_info,-1,"（matplotlib,pandas,wxPython）",style=wx.TE_CENTER)
+        self.statictext_info_library = wx.StaticText(self.panel_info,-1,"\n -Library- \n matplotlib,pandas,wxPython \n datetime,hashlib,pickle \n webbrowser,pycryptodome",style=wx.TE_CENTER)
         self.statictext_info_library.SetForegroundColour((99, 99, 99))
         self.font = wx.Font(20, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL)
         self.statictext_info_version.SetFont(self.font)
